@@ -258,13 +258,16 @@ ul {
   margin-top: 61px;
   border-bottom: 3px solid #E0CCFC;
 }
-.my-modal__comment .css-v4u5dn-MuiInputBase-root-MuiInput-root:hover:not(.Mui-disabled, .Mui-error)::before,
-.my-modal__comment .css-v4u5dn-MuiInputBase-root-MuiInput-root::after,
-.my-modal__comment .css-v4u5dn-MuiInputBase-root-MuiInput-root::before {
-  border-bottom: none;
-}
-.my-modal__comment .css-hu7vcy-MuiFormControl-root-MuiTextField-root {
+.my-modal__comment input {
   width: 100%;
+  border: none;
+  background: none;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.my-modal__comment input:focus {
+  outline: none;
 }
 .my-modal__button {
   margin-top: 42px;

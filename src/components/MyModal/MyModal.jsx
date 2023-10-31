@@ -3,7 +3,6 @@ import Modal from '@mui/material/Modal';
 import { useDispatch, useSelector } from 'react-redux';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
-import { TextField } from '@mui/material';
 import { useState } from 'react';
 import MyDatePicker from '../ui/MyDatePicker';
 import dayjs from 'dayjs';
@@ -108,7 +107,7 @@ const saveTask = () => {
                   <MyTimePickerEnd/>
                 </div>
                 <div className="my-modal__comment">
-                  <TextField value={taskComment} onChange={(e) => setTaskComment(e.target.value)} id="standard-basic" label="Comment" variant="standard" sx={{marginLeft: "4px"}}/>
+                  <input placeholder='Comment' type="text" value={taskComment} onChange={(e) => setTaskComment(e.target.value)}/>
                 </div>
                 <div className="my-modal__button">
                   <button style={{backgroundColor: color}} onClick={saveTask}>Add</button>
