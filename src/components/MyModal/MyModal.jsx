@@ -33,7 +33,7 @@ const style = {
 
 
 
-function MyModal({setTasks, tasks}) {
+function MyModal({setTasks}) {
   const dispatch = useDispatch()
   const timeStart = useSelector(state => state.time.timeStart)
   const timeEnd = useSelector(state => state.time.timeEnd)
