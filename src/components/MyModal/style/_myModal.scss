@@ -10,8 +10,12 @@
         font-family: "Montserrat";
         font-size: 48px;
         color: #5C5F6C;
+        border: none;
         border-bottom: 3px solid #E0CCFC;
         padding-bottom: 12px;
+        &:focus{
+            outline: none;
+        }
     }
 
     &__color{
