@@ -33,7 +33,6 @@ function Schedule(props) {
                 <Typography>Coutts personal appointment</Typography>
               </Paper>
             </Grid>
-            {/* ... Другие события аналогичным образом ... */}
           </Grid>
         </Container>
       );
